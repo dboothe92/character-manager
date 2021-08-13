@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+
 const Home = () => {
     return (
         <section className="home">
-            <button type="button">Login</button>
-            <button type="button">Sign Up</button>
+            <Link className="login-signup" to="/login">Login</Link>
+            <Link className="login-signup" to="/signup">Sign Up</Link>
 
             <p className="home-description">
                 Welcome to the last character manager you'll ever need!
@@ -11,7 +13,7 @@ const Home = () => {
                 Currently servicing Dungeons and Dragons 5E
             </p>
         </section>
-    )
-}
+    );
+};
 
 export default Home;
