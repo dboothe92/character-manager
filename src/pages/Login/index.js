@@ -10,7 +10,7 @@ const Login = () => {
                     <label htmlFor="login-password">Password:</label>
                     <input type="password" id="login-password" required />
                 </div>
-                <button type="submit">Login</button>
+                <button className="login-signup-button"  type="submit">Login</button>
             </form>
         </section>
     )

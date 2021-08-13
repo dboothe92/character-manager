@@ -42,21 +42,63 @@ transform: translate(-50%, -50%);
   font-family: 'Oswald', sans-serif;
 }
 
-.home-edition {
-  font-size: .7em;
-  font-family: 'Oswald', sans-serif;
+/*-------------------------------------------------------------------------------------------*/
+/*Login-Signup*/
+form {
+  text-align: center;
+  margin: 12em auto;
 }
 
+input {
+  width: 80%;
+  height: 3em;
+  border-radius: .5em;
+  margin-bottom: 1.5em;
+  font-family: 'Oswald'
+}
+
+label {
+  display: block;
+  font-size: 1.75em;
+}
+
+input, label {
+  text-align: center;
+}
+
+.login-signup-button {
+  font-family: 'MedievalSharp', cursive;
+  margin: 1em auto 0 auto;
+  padding: .15em .8em;;
+  font-size: 2.3em;
+  background-color: #ffffff;
+  border-radius: .3em;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 768px) {
   .home-description {
     font-size: 1.75em;
   }
+
+
+  input {
+    width: 60%;
+    height: 4em;
+  }
   
-  .home-edition {
-    font-size: 1.1em;
+  label {
+    font-size: 2.5em;
+  }
+
+  .login-signup-button {
+    font-size: 3em;
   }
 }
 
+
+/*-------------------------------------------------------------------------------------------*/
 @media only screen and (min-width: 992px) {
   .login-signup {
     display: inline;
@@ -66,9 +108,24 @@ transform: translate(-50%, -50%);
   .home-description {
     font-size: 1.7em;
   }
-  
-  .home-edition {
-    font-size: 1.3em;
+
+  form {
+    text-align: left;
+    margin-top: 5em;
+    margin-left:15em;
+  }
+
+  label {
+    text-align: left;
+  }
+
+  input {
+    margin-left: 3em;
+    text-align: left;
+  }
+
+  .login-signup-button {
+    margin-left: 1em;
   }
 }
 
