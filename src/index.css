@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*-------------------------------------------------------------------------------------------*/
+/*Homepage*/
+.home {
+text-align: center;
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.home button {
+  font-family: 'MedievalSharp', cursive;
+  display: block;
+  margin: 0 auto 2vh auto;
+  padding: 2vh;
+  font-size: 5vh;
+  background-color: #ffffff;
+}
+
+.home-description {
+  font-size: 2.5vh;
+  font-family: 'Oswald', sans-serif;
+}
+
+.home-edition {
+  font-size: 1.3vh;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-description {
+    font-size: 3.5vh;
+  }
+  
+  .home-edition {
+    font-size: 1.75vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .home button {
+    display: inline;
+    margin: 3vh;
+  }
+
+  .home-description {
+    font-size: 4vh;
+  }
+  
+  .home-edition {
+    font-size: 2.25vh;
+  }
+}
+
